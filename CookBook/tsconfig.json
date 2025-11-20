@@ -1,0 +1,24 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/(tabs)/explore/_layout.jsx",
+    "app/(tabs)/explore/[id].jsx",
+    "components/ui/Explore/SearchInput.jsx",
+    "components/ui/Explore/RecipeCard.jsx",
+    "services/api.js",
+    "app/(tabs)/my-recipes/_layout.jsx",
+    "app/(tabs)/my-recipes/index.jsx",
+    "app/(tabs)/my-recipes/add.jsx",
+    "services/db.js"
+  ]
+}
